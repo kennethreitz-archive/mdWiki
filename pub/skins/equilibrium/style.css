@@ -1,0 +1,366 @@
+/*
+-----------------------------------------
+RESET
+-----------------------------------------
+*/
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td{margin:0; padding:0}
+table{border-collapse:collapse; border-spacing:0}
+fieldset, img{border:0}
+address, caption, cite, code, dfn, em, strong, th, var{font-style:normal; font-weight:normal}
+caption, th{text-align:left}
+h1, h2, h3, h4, h5, h6{font-size:100%; font-weight:normal}
+q:before, q:after{content:''}
+
+strong{font-weight:bold}
+em{font-style:italic}
+a img{border:none}
+
+h1, h2, h3, h5, h5, h6{font-weight:bold}
+
+/*
+-----------------------------------------
+LAYOUT
+-----------------------------------------
+*/
+.aligncenter{display:block; margin:0 auto}
+.alignleft{float:left}
+.alignright{float:right}
+.floatLeft{float:left}
+.floatRight{float:right}
+.clear{clear:both}
+
+/*
+-----------------------------------------
+STRUCTURE
+-----------------------------------------
+*/
+html, body{height:100%}
+body{font-size:62.5%; font-family:Arial,Helvetica,sans-serif; color:#222; margin:0 auto -80px; text-align:center}
+#page-wrap{position:relative; width:960px; margin:0 auto; padding-left:10px; padding-right:10px; text-align:left}
+.content{width:680px; float:left}
+
+/*
+-----------------------------------------
+TYPOGRAPHY
+-----------------------------------------
+*/
+p, address, caption, cite, pre, code, dfn, em, strong, th, var, dt, dd
+{color:#222; font-size:1.2em; line-height:1.5; margin-top:1.5em; margin-bottom:1.5em; text-align:justify}
+pre {font-size: 1.5em}
+p a, p a:visited,
+.blogit-page-navigation a, .blogit-page-navigation a:visited,
+.postMeta-post a, .postMeta-post a:visited{border-bottom:1px solid #c9c9c9; text-decoration:none}
+p a:hover,
+.blogit-page-navigation a:hover,
+.postMeta-post a:hover{border-bottom:1px solid #c9c9c9; color:#000; text-decoration:none}
+h1, strong{font-size:1.4em; font-weight:bold}
+h4, h2, #sidebar .sidehead, #wikitext h2.section-head{font-size:1.8em; color:#222; text-transform:uppercase; padding-bottom:4px; border-bottom:4px solid #c9c9c9; margin-top:28px; margin-bottom:28px; font-weight:bold}
+h3.page-head{border-bottom:4px solid #c9c9c9; color:#222; font-size:2.2em; font-weight:bold; padding-bottom:4px}
+h3 a{text-decoration:none; color:#222}
+
+.post h2,
+#wikitext h2, #wikitext h3, #wikitext h4{text-transform:none; padding-bottom:0; border-bottom:0; margin-bottom:0; margin-top:1.5em}
+#wikitext h3 {font-size: 1.5em}
+#wikitext h4 {font-size: 1.2em}
+.post ul li,
+.post ol li,
+#wikitext ul li,
+#wikitext ol li{font-size:1.2em; margin:5px 0 5px 15px}
+
+#reply{border-bottom:4px solid #C9C9C9; color:#222; font-size:1.8em; margin-top:28px; margin-bottom:16px; padding-bottom:4px}
+
+/*
+-----------------------------------------
+TOP
+-----------------------------------------
+*/
+#top{margin-top:55px; padding-bottom:70px}
+
+#siteheader {float: left; position: relative;}
+
+h1.logo a,
+#siteheader .sitetitle {float:left}
+#siteheader .sitetitle a{display: block}
+#siteheader .sitetag {float: left; clear: left}
+
+#siteheader .sitetitle a{font-size:2.6em; font-weight:bold; color:#000; text-transform:uppercase; text-decoration:none}
+#siteheader .sitetag {color: #8A8A8A}
+
+#nav, #top ul{float:right; margin-top:1.2em}
+
+#nav ul, #top ul{list-style-type:none;}
+
+#nav li, #top li{display:block; display:inline}
+
+#nav a:link,
+#nav a:visited,
+#top ul a:link,
+#top ul a:visited{padding:5px; display:block; color:#353434; margin-left:10px; float:left; text-decoration:none; font-size:1.4em; font-weight:bold; text-transform:uppercase}
+
+ul#nav li.current_page_item a:link,
+ul#nav li.current_page_item a:visited,
+ul#nav li.current_page_item a:hover,
+ul#nav li.current_page_item a:active,
+#top ul li.current_page_item a:link,
+#top ul li.current_page_item a:visited,
+#top ul li.current_page_item a:hover,
+#top ul li.current_page_item a:active
+{text-decoration:none}
+
+/*
+-----------------------------------------
+FEATURED
+-----------------------------------------
+*/
+.front-post,
+.featured .post-wrap{width:327px; margin-bottom:3.5em; margin-right:25px; float:left}
+
+.front-post-last{width:100%; float:left}
+
+.featured-content,
+.featured .post-content{position:relative; width:100%} /*margin-bottom:3.5em*/
+
+.featured-content p,
+.featured .post-content p{margin-top:1em}
+
+.featured-post,
+.featured .post-head{overflow:hidden; width:100%; margin-bottom:1.2em} /*height:231px; */
+
+.featured-title h2,
+#wikitext .featured .title h2{margin:8px 10px 7px; line-height:1.4em; font-size:1.1em; text-transform:none; padding-bottom:0; border-bottom:0}
+
+.featured-title h2 a,
+.featured .title h2 a{font-size:1.1em; display:block; text-decoration:none; border-bottom:0}
+
+.featured-title,
+.featured .title{display:block; z-index:101; width:100%; top:0; filter:alpha(opacity=80); -moz-opacity:.80; opacity:.80; float:left; z-index:2}
+
+.featured-image,
+.featured .post-head img{position:relative; width:100%; z-index:1; margin:0 !important} /*height:231px; */
+.featured .content-wrap img {display:none}
+
+.featured-content h2,
+.featured .post-content h2{margin-top:15px}
+.featured-content h2 a,
+.featured .post-content h2 a{text-decoration:none}
+.featured-content h2 a:hover,
+.featured .post-content h2 a{color:#000}
+
+/*
+-----------------------------------------
+SIDEBAR
+-----------------------------------------
+*/
+#sidebar{float:right; width:260px; padding-left:20px; overflow:hidden}
+#sidebar li {list-style-type: none}
+#sidebar li a{display:block; width:260px; margin:0; padding:8px 2px; list-style:none; border-bottom:1px solid #c9c9c9; font-size:1.4em; list-style-type:none; text-decoration:none; color:#222}
+#sidebar a{color:#222; text-decoration:none}
+#sidebar h2, #sidebar .sidehead{font-size:1.8em; color:#222; text-align:right; text-transform:uppercase; border-bottom:4px solid #c9c9c9; margin-top:28px; margin-bottom:0}
+
+/*
+-----------------------------------------
+LATEST
+-----------------------------------------
+*/
+#front-bottom{margin-top:36px}
+
+#latest-wrap,
+.latest{float:left; width:680px}
+
+.latest-post-wrap,
+.latest .post-wrap{float:left; width:162px; margin-right:8px}
+
+.latest-post,
+.latest .post-head{overflow:hidden; width:162px}
+
+.latest-image,
+.latest .post-head img{position:relative; width:100%; z-index:1; margin:0 !important}
+.latest .content-wrap img {display:none}
+
+.latest-title h2,
+#wikitext .latest .title h2{margin:8px 10px 7px; line-height:1.4em; font-size:1em; text-transform:none; padding-bottom:0; border-bottom:0}
+
+.latest-title h2 a,
+.latest .title h2 a{display:block; text-decoration:none}
+
+.latest-title h2 a:hover,
+.latest .title h2 a:hover{color:#fff}
+
+.latest-title,
+.latest .title{display:block; z-index:101; width:100%; bottom:0; filter:alpha(opacity=80); -moz-opacity:.80; opacity:.80; float:left; z-index:2}
+
+.latest-content,
+.latest .post-content{position:relative; width:162px; margin-bottom:20px} /*height:200px; */
+
+.latest-content h2,
+.latest .post-content h2{margin-top:15px}
+.latest-content h2 a,
+.latest .post-content h2{text-decoration:none}
+.latest-content h2 a:hover,
+.latest .post-content h2:hover{color:#000}
+
+.latest-content p,
+.latest .post-content p{color:#222; font-size:1.2em; line-height:1.5; margin-top:8px; margin-bottom:1.5em; text-align:left}
+
+.row-wrap{float: left}
+.no-right-margin{margin-right:0 !important}
+
+/*
+-----------------------------------------
+FOOTER
+-----------------------------------------
+*/
+#push{height:80px}
+
+#footer{clear: both; padding-top:10px; border-top:1px solid #C9C9C9; width:960px; margin:60px auto 0; height:80px; color:#4d4d4d}
+
+#footer div, #footer p{text-align: center; font-size:1em; color:#4d4d4d; line-height:1.5em; margin-bottom:0; margin-top:0}
+
+#footer div a, #footer p a{border-bottom:1px solid #c9c9c9; color:#4d4d4d; text-decoration:none}
+
+#footer div a:hover, #footer a:hover{border-bottom:1px solid #c9c9c9; text-decoration:none}
+
+/*
+-----------------------------------------
+POSTMETA
+-----------------------------------------
+*/
+.postMeta{font-size:1.2em; margin-bottom:18px; margin-top:8px; padding-bottom:24px; border-bottom:1px solid #c9c9c9}
+
+.postMeta-featured,
+.featured .postMeta,
+.latest .postMeta{margin-top:8px; font-size:1.2em; width:100%; margin-bottom:0; padding-bottom:0; border-bottom:none}
+
+.postMeta-front{margin-top:8px; font-size:1.2em}
+
+.postMeta-post{font-size:1.2em; margin-bottom:18px; margin-top:8px; border-bottom:1px solid #c9c9c9; padding-bottom:10px}
+
+.postMeta span.date,
+.postMeta-post span.date,
+.postMeta-featured span.date,
+.postMeta-front span.date{color:#8a8a8a; float:left}
+
+.postMeta-post span.date,
+.postMeta-post span.comments{clear:both;}
+
+.postMeta span.comments a,
+.postMeta-post span.comments a,
+.postMeta-featured span.comments a,
+.postMeta-featured span.date a,
+.postMeta-front span.comments a,
+.postMeta-front span.date a{float:left; color:#8a8a8a; text-decoration:none}
+
+.postMeta-post span.date a,
+.postMeta span.date a{color:#8a8a8a; text-decoration:none}
+
+.postMeta span.comments,
+.postMeta-featured span.comments,
+.postMeta-post span.comments,
+.postMeta-front span.comments{color:#8a8a8a;float:right; background:#FFF url(images/comment.gif) no-repeat left center; padding-left:15px; margin-left:2px}
+
+/*
+-----------------------------------------
+POSTS
+-----------------------------------------
+*/
+.post-category{color:#8a8a8a; float:right; margin-bottom:8px}
+.post-tags{color:#8a8a8a; float:left; margin-bottom:8px}
+
+.post-category p,
+.post-tags p{color:#8A8A8A; font-size:1em; line-height:1.5em; margin-bottom:0em; margin-top:0em; text-align:none}
+.post img,
+#wikitext img{margin:0.5em 1em;}
+.post blockquote p {margin:0 2.6em; font-style:italic}
+
+/*
+-----------------------------------------
+COMMENTS
+-----------------------------------------
+*/
+#comments {clear:both; overflow:hidden}
+#comments .comment-heading{margin-top: 40px; margin-bottom:26px; text-transform:none; border:none}
+#comments .commentwrap, #wikitext .commentwrap{border-top:1px solid #C9C9C9; padding-bottom:25px; padding-top:15px}
+
+#comments .commentpost, #wikitext .commentpost{float:right; width:510px; padding:0.3em}
+#comments .commentpost p, #wikitext .commentpost p{margin-top:0}
+
+#comments .commentmetadata, #wikitext .commentmetadata{float:left; width:20%; color:#2F2B23; line-height:1.5em; padding-right:20px; color:#999; font-size:1.1em}
+#comments .commentmetadata li, #wikitext .commentmetadata li{list-style-type:none; padding:.3em; margin:0 .5em 0 0; font-size:1em;}
+#comments .commentmetadata li a, #wikitext .commentmetadata li a{border-bottom:1px solid #c9c9c9; text-decoration:none}
+
+#comments .warning{padding:10px; background:#282828; border:1px solid #323232; ; margin-bottom:10px}
+
+#comments label input {width:160px}
+
+#comments label input,
+#wikitext input{border:1px solid #E5E5E5; padding:5px 4px; margin-bottom:10px}
+
+#comments label span,
+#comments span.label{line-height:27px}
+
+#comments label,
+#comments .label,
+#wikitext input{font-family:"Lucida Sans Unicode"; font-size:1.1em}
+
+#comment_author{margin:20px 20px 20px 0px; padding:0px; width:150px; float:left}
+#comments-content{display:block; border-bottom:1px solid #C9C9C9; margin:10px 0px 10px 0px; padding:0px}
+#comments textarea,
+#wikitext textarea{padding:4px 0px; width:100%; border:1px solid #E5E5E5}
+
+.button{border:1px solid #E5E5E5; font-size:1.1em; font-weight:bold; height:25px; margin-top:10px; margin-bottom:10px; padding:0 8px; text-transform:uppercase}
+
+.children {margin-left: 50px}
+.children div {border:none}
+.children .commentwrap {border-top: 1px solid #C9C9C9;}
+.children .commentmetadata {padding-right:0px}
+.children .commentpost {text-align:left; float:right; width:78%}
+
+/*
+-----------------------------------------
+SEARCH
+-----------------------------------------
+*/
+#searchform{float:left; margin-top:1em; height:2.3em}
+#searchsubmit{border:1px solid #E5E5E5; font-size:1.1em; font-weight:bold; height:2.1em; padding:2px 8px; text-transform:uppercase; float:right; background-color:#F0F0F0}
+#s{float:left; width:204px; margin-right:6px; padding-top:4px; padding-bottom:4px; padding-left:2px; padding-right:2px; border:1px solid #E5E5E5; font-size:1.1em}
+
+/*
+-----------------------------------------
+PMWIKI
+-----------------------------------------
+*/
+#footer .credits {clear: left; margin-top: 2.5em; font-size:1em; color: #8A8A8A;}
+#footer .credits a {color: #8A8A8A}
+#top .createlink, #top ul .createlink { display: none !important}
+.pageactions {position:absolute;right:5px;top:-70px}
+.pageactions li a {font-size:9px !important; color: #C9C9C9 !important; text-transform: lowercase !important}
+.pagegroup {display:block; margin-top: 9.3px;color: #8A8A8A; font-size:1.1em; text-transform: lowercase;text-decoration: none}
+ a.createlinktext { text-decoration:none; border-bottom:none; }
+a.createlink { text-decoration:none; position:relative; top:-0.5em; font-weight:bold; font-size:smaller; border-bottom:none; }
+.blogit-page-navigation{clear:both; padding:20px 0}
+.blogit-older-entries a, .blogit-newer-entries a {font-size:130%; font-weight: bold;}
+.blogit-older-entries a {float:right;}
+.blogit-newer-entries a {float:left;}
+.blogit-listmore {text-align:right;}
+.blogit-readmore {display: block; margin-top: 10px; padding-bottom: 10px; font-weight: bold;}
+.wikimessage {color: red; font-weight: bold; font-size: 110%; }
+#captcha { display: inline; font-weight: bold;}
+#captcha input { width: 50px;	}
+#wikitext dd, #wikitext .indent { margin-left:40px; }
+#wikitext .outdent {margin: 1em 40px .5em 40px; text-indent:-40px; }
+#wikitext .quickref {background-color: #fff; font-size: 100% !important; margin-top: 4em}
+#wikitext .quickref p, #wikitext .quickref .outdent, #wikitext .quickref div, #wikitext .quickref strong {font-size:1em; margin:0; text-align:left; text-indent:0; line-height: 2em}
+#wikitext .quickref br {display:none}
+#wikitext code.escaped,
+#wikitext pre {font-size:140%; background-color: #f6f6f6; overflow: auto; height: auto; width: 90%; margin: 1.5em auto; padding: .15em; color: #666}
+#wikitext hr {border:1px solid #C9C9C9; margin:3em 0}
+#wikiedit img {margin:0}
+#wikiedit a {border:0}
+#wikiedit #text {width:99%}
+.difftime, .difftype {font-size: 1em !important}
+.postMeta-post .blogit-edit {float:right; margin-right:5px; padding-right:5px; border-bottom: none !important }
+.force_contain:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.force_contain { display: inline-block; _height: 1%; }
+/* Hides from IE-mac \*/
+.force_contain { display: block; }
+/* End hide from IE-mac */

@@ -1,0 +1,11 @@
+version=pmwiki-2.2.4 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.19) Gecko/20081216 Ubuntu/8.04 (hardy) Firefox/2.0.0.19
+author=Petko
+charset=ISO-8859-1
+csum=fix link
+host=86.69.109.9
+name=PmWiki.UTF-8
+rev=13
+targets=
+text=!!!Enabling UTF-8 Unicode language encoding in your page header. %0a%0aUTF-8 allows for support of various languages, including Asian languages and their character depth.  It is a widely supported and flexible character encoding, used for many European languages and can also represent Chinese, Japanese and Korean. %0a%0aIt's fairly simple to enable UTF-8 on your wiki pages.  Currently PmWiki 2.0 versions have the UTF-8 file needed already loaded. %0a%0a!!!!Here are the steps to enable UTF-8 %0a%0a*Open your config.php file%0a*Add this line:[[%3c%3c]]'''include_once($FarmD.'/scripts/xlpage-utf-8.php');'''%0a*save and upload your config.php file back to the server.%0a%0aIf you validate your site you should see that UTF-8 is default encoding.%0a%0a'' '''NOTE: ''' The encoding type used when [@config.php@] is saved has an effect if you will be converting between character encodings on your wiki. Refer to [[Cookbook:ISO8859MakePageNamePatterns#page-encoding | page encoding]] for more details. If you are not using international characters then you do not need to be concerned about this.''%0a%0aSee also [[Cookbook:UTF-8]] for tips.%0a
+time=1251047160

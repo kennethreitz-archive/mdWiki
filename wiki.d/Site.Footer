@@ -1,0 +1,18 @@
+version=pmwiki-2.2.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Chrome/5.0.335.0 Safari/533.1
+author=
+charset=ISO-8859-1
+csum=
+ctime=1267203946
+host=209.234.11.50
+name=Site.Footer
+rev=2
+targets=
+text=
+time=1267204707
+author:1267204707=
+diff:1267204707:1267203946:=0a1%0a> (:markdownend:)%0a\ No newline at end of file%0a
+host:1267204707=209.234.11.50
+author:1267203946=
+diff:1267203946:1267203946:=1d0%0a%3c (:markdownend:)%0a\ No newline at end of file%0a
+host:1267203946=209.234.11.50

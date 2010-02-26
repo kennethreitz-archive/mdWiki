@@ -1,0 +1,15 @@
+version=pmwiki-2.2.13 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Chrome/5.0.335.0 Safari/533.1
+author=
+charset=ISO-8859-1
+csum=
+ctime=1267203959
+host=209.234.11.50
+name=Site.Header
+rev=1
+targets=
+text=(:markdown:)
+time=1267203959
+author:1267203959=
+diff:1267203959:1267203959:=1d0%0a%3c (:markdown:)%0a\ No newline at end of file%0a
+host:1267203959=209.234.11.50

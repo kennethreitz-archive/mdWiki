@@ -1,0 +1,11 @@
+version=pmwiki-2.2.0-beta65 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11
+author=simon
+charset=ISO-8859-1
+csum=summary
+host=202.37.32.2
+name=PmWiki.WikiWords
+rev=3
+targets=
+text=(:Summary:Redirects to [[PmWiki.WikiWord]]:)%0a(:redirect WikiWord:)
+time=1201746704

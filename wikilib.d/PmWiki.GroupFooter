@@ -1,0 +1,12 @@
+version=pmwiki-2.2.6 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; GTB6; .NET CLR 1.0.3705)
+author=SchreyP
+charset=ISO-8859-1
+csum=Add "|+" after Documentation index link so translation is shown
+ctime=1219202352
+host=81.243.199.60
+name=PmWiki.GroupFooter
+rev=61
+targets=PmWiki.DocumentationIndex,PmWiki.Variables,PmWiki.GroupF
+text=(:Summary:Trail and talk page links:)%0a[[#trailstart]] (:comment included in PmWiki localisation headers and footers :)%0a(:if ontrail {*$Group}.DocumentationIndex#trailstart#trailend {*$Name}:) %0a(:div style="clear:right; float:right; font-size:smaller; background-color:#eee;":)%0a%3c|[[{*$Group}/Documentation index(#trailstart#trailend)|+]]|> %25%25%0a(:divend:)%0a(:ifend:)%0a(:if ontrail {*$Group}.Variables {*$Name}:) %0a(:div style="clear:right; float:right; font-size:smaller; background-color:#ddd;":)%0a%3c|[[{*$Group}/Variables]]|> %25%25%0a(:divend:)%0a(:ifend:)%0a[[#trailend]]%0a[[%3c%3c]]%0a>>bgcolor=#ffe border-top="1px solid black" font-size=.8em%3c%3c%0a(:if name *-Talk:)%0aThis is a talk page for improving [[{(substr "{*$FullName}" 0 -5)}]].%0a(:else:)%0aThis page may have %25commentout-pmwikiorg%25 a more recent version on [[(http://www.)pmwiki.org]]: [[PmWiki:{*$Name}]], and %25%25 a talk page: [[PmWiki:{*$Name}-Talk]].%0a(:ifend:)%0a>>%3c%3c%0a
+time=1255900372

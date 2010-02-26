@@ -1,0 +1,12 @@
+version=pmwiki-2.2.1 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)
+
+charset=ISO-8859-1
+csum=
+ctime=1254105809
+host=127.0.0.1
+name=Site.XLPage-equilibrium
+rev=3
+targets=
+text=### Equilibrium Template%0a  'Search' => '',%0a  'theme originally by' => '',%0a  'adapted by' => '',%0a  'powered by' => '',%0a%0a### Site.Blogit-SkinTemplate-equilibrium%0a%0a  ## #single-entry-view%0a  'by' => '',%0a%0a  ## #comment-form%0a  '(required)' => '',%0a  '(required, will not be published)' => '',%0a  'Website (optional)' => '',%0a  'Page last modified on {*$LastModified}' => '',%0a  '%25b %25d, %25Y, %25H:%25M' => ''%0a
+

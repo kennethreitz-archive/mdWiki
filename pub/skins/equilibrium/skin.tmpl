@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC
+ "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>$WikiTitle {$Group}/{$Titlespaced}</title>
+	<meta name="generator" content="PmWiki" />
+	<link rel="stylesheet" type="text/css" href="$SkinDirUrl/style.css" media="screen" />
+	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="$SkinDirUrl/ie7.css" media="screen" /><![endif]-->
+<!--HTMLHeader-->
+</head>
+
+<body>
+	<div id="page-wrap" class="force_contain">
+		<div id="top">
+			<!--PageHeaderFmt-->
+			<div id="siteheader">
+				<!--wiki:{$Group}.SiteHeader {$SiteGroup}.SiteHeader-->
+			</div>
+			<!--/PageHeaderFmt-->
+
+			<!--PageTabsFmt-->
+			<!--wiki:{$Group}.SiteNav {$SiteGroup}.SiteNav -->
+			<!--/PageTabsFmt-->
+			<!--PageActionFmt-->
+			<div class="pageactions">
+				<!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions-->
+			</div>
+			<!--/PageActionFmt-->
+
+		</div>
+
+		<div class="content">
+			<!--PageTitleGroupFmt-->
+			<a href='{$ScriptUrl}/{$Group}' class="pagegroup">{$Group}</a>
+			<!--/PageTitleGroupFmt-->
+			<!--PageTitleFmt-->
+			<h3 class='page-head'><a href='{$PageUrl}'>{$Titlespaced}</a></h3>
+			<!--/PageTitleFmt-->
+			<!--PageText-->
+		</div>
+
+		<div id="sidebar">
+			<!--PageSearchFmt-->
+			<h2>$[Search]</h2>
+			<form id="searchform" action='$ScriptUrl' method="get"><fieldset>
+				<input type='hidden' name='n' value='{$FullName}' />
+				<input type='hidden' name='action' value='search' />
+				<input class='searchBox' type='text' id='s' name='q' value="" />
+				<input id="searchsubmit" class='searchButton' type='submit' value='$[Go]' />
+			</fieldset></form>
+			<div class="clear"></div>
+			<!--/PageSearchFmt-->
+
+			<!--PageRightFmt-->
+			<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+			<!--/PageRightFmt-->
+
+		</div>
+	</div>
+
+	<div id="footer">
+		<!--PageFooterFmt-->
+		<div class="footer"><!--wiki:{$Group}.SiteFooter {$SiteGroup}.SiteFooter--></div>
+		<!--/PageFooterFmt-->
+
+		<div class="credits">
+			Brought to you by <a href="http://kennethreitz.com">Kenneth Reits</a>. This wiki+skin+markdown available on <a href="http://github.com/kennethreitz/mdWiki">GitHub</a>.
+		</div>
+	</div>
+
+<!--HTMLFooter-->
+</body>
+</html>

@@ -1,0 +1,12 @@
+version=pmwiki-2.2.6 ordered=1 urlencoded=1
+agent=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; GTB6; .NET CLR 1.0.3705)
+author=SchreyP
+charset=ISO-8859-1
+csum=add link for wiki-based and remove a double link in same paragraph
+ctime=1180819909
+host=217.136.7.159
+name=PmWiki.Introduction
+rev=23
+targets=PmWiki.WikiWikiWeb,PmWiki.PmWiki,Main.WikiSandbox,PmWiki.BasicEditing,PmWiki.TextFormattingRules,PmWiki.Requirements,PmWiki.DocumentationIndex,PmWiki.Installation
+text=>>faq%3c%3c [[#faq]]%0aQ: What is PmWiki?%0aA: PmWiki is a [[WikiWikiWeb|wiki-based]] system for collaborative creation and maintenance of websites. See [[PmWiki/PmWiki]].%0a%0aQ: What can I do with it?%0aA: PmWiki pages look and act like normal web pages, except they have an "Edit" link that makes it easy to modify existing pages and add new pages into the website, using [[basic editing]] rules. You do not need to know or use any HTML or CSS. Page editing can be left open to the public or restricted to small groups of authors. Feel free to experiment with the [[PmWiki/Text Formatting Rules]] in the "[[Main/WikiSandbox?action=edit | Wiki sandbox]]". The website you're currently viewing is built and maintained with PmWiki.%0a%0aQ: What are the requirements?%0aA: See the [[PmWiki.Requirements | PmWiki requirements]] page.%0a%0aQ: Where can I find documentation?%0aA: See the [[PmWiki.DocumentationIndex | documentation index]] page.%0a%0aQ: How can I download PmWiki?%0aA: See the [[PmWiki:Download | download]] page.%0a%0aQ: How do I install PmWiki?%0aA: Instructions for installation are on the [[PmWiki.Installation | installation page]].%0a%0aQ: How do I get help with PmWiki?%0aA: See [[(PmWiki:)Mailing lists]] and [[(PmWiki:)How to get assistance]].%0a
+time=1255724136
